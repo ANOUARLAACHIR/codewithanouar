@@ -8,6 +8,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="<?php echo "/codewithanouar/css/style.css"; ?>">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
   </head>
 
 	<body>
@@ -20,10 +21,10 @@
 					<div class="col d-flex justify-content-end">
 						<div class="social-media">
 							<p class="mb-0 d-flex">
-								<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
-								<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
-								<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
-								<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-dribbble"><i class="sr-only">Dribbble</i></span></a>
+								<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa-brands fa-facebook"><i class="sr-only">Facebook</i></span></a>
+								<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa-brands fa-twitter"><i class="sr-only">Twitter</i></span></a>
+								<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa-brands fa-instagram"><i class="sr-only">Instagram</i></span></a>
+								<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa-brands fa-youtube"><i class="sr-only">Youtube</i></span></a>
 							</p>
 						</div>
 					</div>
@@ -57,8 +58,40 @@
 						<li class="nav-item"><a href="#" class="nav-link">Catalog</a></li>
 						<li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
 						<li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+						<li class="nav-item"><a href="" class="nav-link" data-toggle="modal" data-target="#modalLoginForm">Login</a></li>
 					</ul>
 				</div>
 			</div>
 	  	</nav>
     <!-- END nav -->
+	<!-- Login Begin -->
+	<div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+	aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header text-center">
+					<h4 class="modal-title w-100 font-weight-bold">Sign in</h4>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<form action="">
+					<div class="modal-body mx-3">
+					<div class="md-form mb-5">
+						<i class="fas fa-envelope prefix grey-text"></i>
+						<input type="email" id="defaultForm-email" class="form-control validate">
+						<label data-error="wrong" data-success="right" for="defaultForm-email">Your email</label>
+					</div>
+					<div class="md-form mb-4">
+						<i class="fas fa-lock prefix grey-text"></i>
+						<input type="password" id="defaultForm-pass" class="form-control validate">
+						<label data-error="wrong" data-success="right" for="defaultForm-pass">Your password</label>
+					</div>
+					</div>
+					<div class="modal-footer d-flex justify-content-center">
+						<button class="btn btn-default">Login</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
