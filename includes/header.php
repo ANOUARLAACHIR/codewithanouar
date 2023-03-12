@@ -22,10 +22,10 @@
 					<div class="col d-flex justify-content-end">
 						<div class="social-media">
 							<p class="mb-0 d-flex">
-								<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa-brands fa-facebook"><i class="sr-only">Facebook</i></span></a>
+								<a href="https://www.facebook.com/anouar.laachir" target="_blanc" class="d-flex align-items-center justify-content-center"><span class="fa-brands fa-facebook"><i class="sr-only">Facebook</i></span></a>
 								<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa-brands fa-twitter"><i class="sr-only">Twitter</i></span></a>
 								<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa-brands fa-instagram"><i class="sr-only">Instagram</i></span></a>
-								<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa-brands fa-youtube"><i class="sr-only">Youtube</i></span></a>
+								<a href="https://www.youtube.com/@becomeengineer" target="_blanc" class="d-flex align-items-center justify-content-center"><span class="fa-brands fa-youtube"><i class="sr-only">Youtube</i></span></a>
 							</p>
 						</div>
 					</div>
