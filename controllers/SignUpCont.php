@@ -1,5 +1,6 @@
-<?php 
-class SignUpCont {
+<?php
+class SignUpCont
+{
     private $user_id;
     private $full_name;
     private $username;
@@ -11,7 +12,8 @@ class SignUpCont {
     private $phone;
     private $country;
     private $city;
-    public function __construct($user_id, $full_name, $username, $email, $password, $c_password, $status, $birth_date, $phone, $country, $city) {
+    public function __construct($user_id, $full_name, $username, $email, $password, $c_password, $status, $birth_date, $phone, $country, $city)
+    {
         $this->$user_id = $user_id;
         $this->$full_name = $full_name;
         $this->$username = $username;
