@@ -109,4 +109,5 @@
 		</div>
 	</div>
 
-	<?php include("sidebar.php"); ?>
+	<div class="row">
+		<?php include("sidebar.php"); ?>
